@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SFormMenu = styled.div` i
+const SFormMenu = styled.div` 
   @media only screen and (min-width: 927px) {
     .menu {
       background-color: var(--mColor);

@@ -21,13 +21,13 @@ export default function Menu() {
 
         <div className="dropDown">
           <div className="dropContent">
-            <NavLink to="/manga">Le Manga</NavLink>
+            <NavLink to="/manga">Manga</NavLink>
           </div>
         </div>
 
         <div className="dropDown">
           <div className="dropContent">
-            <NavLink to="/anime">L&aposanime</NavLink>
+            <NavLink to="/anime">Anime</NavLink>
           </div>
         </div>
 
