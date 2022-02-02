@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import Home from './components/Home';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 // import Anime from './components/Anime';
 // import Clamp from './components/Clamp';
 // import Manga from './components/Manga';
@@ -23,7 +23,7 @@ function App() {
           <Route path="/presentation" element={<Presentation />} />
           <Route path="/listcard" element={<ListCard />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );

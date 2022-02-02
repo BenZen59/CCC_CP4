@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import SFormMenu from './style';
-// import MenuBurger from '../MenuBurger';
+import MenuBurger from '../MenuBurger';
 
 export default function Menu() {
   return (
     <SFormMenu id="myMenu">
-      {/* <MenuBurger /> */}
+      <MenuBurger />
       <nav className="menu">
         <div className="dropDown">
           <div className="dropContent">
