@@ -9,6 +9,11 @@ export default function MenuBurger() {
         <Menu>
           <ul>
             <li>
+              <NavLink to="/" className="navLink">
+                • Accueil
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/presentation" className="navLink">
                 • Présentation
               </NavLink>

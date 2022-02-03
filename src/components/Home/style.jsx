@@ -47,7 +47,7 @@ const SHome = styled.div`
   .textHome {
     position: absolute;
     z-index: 2;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 70%;
     text-align: center;
     width: 16em;

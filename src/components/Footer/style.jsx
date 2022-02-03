@@ -18,8 +18,7 @@ const SFooter = styled.footer`
   }
   @media only screen and (max-width: 926px) {
     .footer {
-      position: absolute;
-      margin: -5px 0;
+      visibility: hidden;
     }
   }
 `;

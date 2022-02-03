@@ -9,6 +9,11 @@ export default function Menu() {
       <nav className="menu">
         <div className="dropDown">
           <div className="dropContent">
+            <NavLink to="/">Accueil</NavLink>
+          </div>
+        </div>
+        <div className="dropDown">
+          <div className="dropContent">
             <NavLink to="/presentation">Présentation</NavLink>
           </div>
         </div>
