@@ -42,8 +42,8 @@ const SManga = styled.div`
   @media only screen and (max-width: 926px) {
     
     .sakura {
-    height:250vh;
-    width: 500%;
+    height:430vh;
+    width: 860%;
     background-repeat: repeat;
   }
 
