@@ -38,7 +38,7 @@ export default function Menu() {
 
         <div className="dropDown">
           <div className="dropContent">
-            <NavLink to="/listcard">Liste des cartes</NavLink>
+            <NavLink to="/card">Liste des cartes</NavLink>
           </div>
         </div>
       </nav>

@@ -34,7 +34,7 @@ export default function MenuBurger() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/listcard" className="navLink">
+              <NavLink to="/card" className="navLink">
                 • Liste des cartes
               </NavLink>
             </li>

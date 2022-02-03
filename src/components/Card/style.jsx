@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SClamp = styled.div`
+const SCard = styled.div`
   .home{
       height: 100%;
       overflow-x: hidden;
@@ -21,37 +21,38 @@ const SClamp = styled.div`
     position: absolute;
     z-index: 2;
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 10%;
     text-align: center;
-    width: 60em;
-    font-size: 30px;
+    width: 90em;
+    font-size: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
-  }
-
-  .pictureProfile{
-    width: 324px;
-    height: 483px;
-    border: 1px solid black;
+    flex-wrap: wrap;
   }
   @media only screen and (max-width: 926px) {
     
     .sakura {
-    height:310vh;
-    width: 648%;
+    height:250vh;
+    width: 500%;
     background-repeat: repeat;
   }
-  
+
   .textHome {
-    margin-left: 6%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 7%;
     margin-top: 30%;
-    width: 17em;
+    text-align: center;
+    width: 16em;
     font-size: 20px;
-    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 `;
-export default SClamp;
+export default SCard;

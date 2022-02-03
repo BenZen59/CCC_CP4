@@ -1,31 +1,27 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import sakurahome from '../../assets/sakurahome.jpeg';
-import SAnime from './style';
+import SCard from './style';
 
-export default function Manga() {
-  const [anime, setAnime] = useState([]);
+export default function Card() {
+  const [card, setCard] = useState([]);
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_API_URL}/anime`).then(({ data }) => {
-      setAnime(data);
+    axios.get(`${process.env.REACT_APP_API_URL}/card`).then(({ data }) => {
+      setCard(data);
     });
   }, []);
 
   return (
-    <SAnime>
+    <SCard>
       <div className="home">
         <img src={sakurahome} alt="sakura" className="sakura" />
         <div className="textHome">
-          {anime.map((animes) => {
+          {card.map((cards) => {
             return (
               <p>
-                {animes.titleEpisode}
+                <img className="card" src={cards.urlPicture} alt="card" />
                 <br />
-                Episode {animes.numberEpisode}
-                <br />
-                {animes.airingDate}
-                <br />
-                {animes.nameTV}
+                {cards.nameCard}
                 <br />
                 <br />
               </p>
@@ -33,6 +29,6 @@ export default function Manga() {
           })}
         </div>
       </div>
-    </SAnime>
+    </SCard>
   );
 }
